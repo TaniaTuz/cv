@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #142044C9;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.image-profile {
+    border-radius: 50%;
+    max-width: 170px;
+    height: auto;
+    margin: 10px;
+}
+
+.text-profession {
+    font-size: 20px;
+}
+
+.profile-description {
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.right {
+    flex: 2;
+    padding: 40px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.skills {
+    padding: 0px 0px 0px 16px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    padding: 0;
+}
